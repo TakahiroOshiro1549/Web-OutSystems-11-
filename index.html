@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8-">
+        <title>
+            Outsystemsの概要
+        </title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-logo">
+                Outsystems
+            </div>
+            <div class="header-list">
+                <ul>
+                    <li>HOME</li>
+                    <li>目次</li>
+                    <li>あああ</li>
+                    <li>お問い合わせ</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">   
+            <div class="contents">
+                <h2 class="section-titele">Web開発の概要</h2>    
+            </div>
+                <div class="contents-item">
+                    <img class="pdf" src="OutosystemsPDF\2.1-Web Development Overview_page-0001.jpg">
+                    <div class="item-text">
+                        <h3>Web-Development-Overview</h3>
+                    </div>
+                </div>
+                <div class="contents-item">
+                    <img class="pdf" src="OutosystemsPDF\2.1-Web Development Overview_page-0002.jpg">
+                    <div class="item-text">
+                        <h3>Topics</h3>
+                        <p>このセッションではWEBアプリケーションの基本と</p>
+                        <p>クライアント-サーバーアーキテクチャを扱います</p>
+                        <p>クライアント-サーバー間のやりとりに必要なHTTPメッセージや</p>
+                        <p>サーバー側、クライアント側の動作を見ていきます。</p>
+                    </div>
+                </div>
+                <div class="contents-item">
+                    <img class="pdf" src="OutosystemsPDF\2.1-Web Development Overview_page-0003.jpg">
+                    <div class="item-text">
+                        <h3>Web Applications</h3>
+                        <p>Webアプリケーションには主にブラウザでアクセスします</p>
+                        <p>FacebookやAmazon、Netflixなどのアプリケーションは</p>
+                        <p>ユーザーのリクエストに応じて動的コンテンツを表示します</p>
+                        <p>また、取得済みのユーザー情報やセキュリティ、アクセス制御を考慮して</p>
+                        <p>表示を行うこともあります。</p>
+                    </div>
+                </div>
+                <div class="contents-item">
+                    <img class="pdf" src="OutosystemsPDF\2.1-Web Development Overview_page-0004.jpg">
+                    <div class="item-text">
+                        <h3>User-Interaction</h3>
+                        <p>通常のユーザーインタラクションでは</p>
+                        <p>まず手順1のようにブラウザを開きます</p>
+                        <p>次にアドレスバーにURLを入力するかリンクをクリックします</p>
+                        <p>するとブラウザがサーバーへリクエストを送ります</p>
+                        <p>待機状態だったサーバーはそのリクエストを処理します</p>
+                        <p>そしてブラウザにレスポンスを送ります</p>
+                        <p>それを受信したブラウザはブラウザ内でWebページを描画します</p>
+                        <p>これでページの閲覧や操作が可能になります</p>
+                    </div>
+                </div>   
+                <div class="contents-item">
+                    <img class="pdf" src="OutosystemsPDF\2.1-Web Development Overview_page-0005.jpg">
+                    <div class="item-text">
+                        <h3>Web-requests&responses</h3>
+                        <p>ユーザーインタラクションはWebリクエストとレスポンスのやりとりです</p>
+                        <p>ブラウザとWebサーバーの通信にはHTTPプロトコルが使用されます</p>
+                        <p>ブラウザは、リクエストをHTTPリクエストに変換します</p>
+                        <p>HTTPは「ハイパーテキストトランスファープロトコル」の略です</p>
+                        <p>この特殊な方法でリクエストを行うことで</p>
+                        <p>サーバーが処理方法を理解できるようになります</p>
+                        <p>リクエスト送信のタイミングはリンクのクリック時</p>
+                        <p>フォームの送信時、検索の実行時などです</p>
+                        <p>HTTPリクエストにはこうした様々な情報が含まれています</p>
+                        <p>待機していたサーバーはHTTPリクエストを受信すると</p>
+                        <p>内容を理解してリクエストを処理し、レスポンスを作成します</p>
+                        <p>レスポンスはHTMLページの説明のようなものですそれを</p>
+                        <p>HTTPレスポンスという形にして送信します</p>
+                        <p>ブラウザはHTTPレスポンスを受信し内容を理解してリソースを表示します</p>
+                        <p>これにはHTMLページや画像などが含まれますこれが通常のWebインタラクションです</p>
+                    </div>
+                </div>   
+                <div class="contents-item">
+                    <img class="pdf" src="OutosystemsPDF\2.1-Web Development Overview_page-0006.jpg">
+                    <div class="item-text">
+                        <h3>Server-side</h3>
+                        <p>ではサーバー側を詳しく見ていきましょうサーバーはリクエストを受信すると</p>
+                        <p>リクエストの種類と対処方法を理解したうえでロジックを使用して処理します</p>
+                        <p>これには多くの場合データの取得が必要になります</p>
+                        <p>受信した情報の保存が必要なこともあれば取得が必要になることもあります</p>
+                        <p>こうした情報は、情報の閲覧や保存に対するアクセス制御を行う際に重要です</p>
+                        <p>サーバー側で処理が終わり次第サーバーがHTTPレスポンスを作成することで</p>
+                        <p>ブラウザ側で動的なHTMLページの構築が可能になります</p>
+                        <p>そしてそのレスポンスを返しますこの場合、</P>
+                        <p>ブラウザはHTMLなしでHTMLページを表示できます</p>
+                        <p>画像などのリソースが含まれる場合サーバーにリクエストを行いリソースを取得します</p>
+                    </div>
+                </div>   
+                <div class="contents-item">
+                    <img class="pdf" src="OutosystemsPDF\2.1-Web Development Overview_page-0007.jpg">
+                    <div class="item-text">
+                        <h3>Client-side</h3>
+                        <p>次にクライアント側を見ていきますクライアント側はコンテナのようなものです</p>
+                        <p>ブラウザはレスポンス内のコードを実行します</p>
+                        <p>レスポンスでは通常、HTMLが返されますがHTML内のCSSやJavaScriptが</p>
+                        <p>参照されることもありますCSSはルックアンドフィールを担い</p>
+                        <p>ページの色やスタイルを指定します</p>
+                        <p>ページ内で動的にインタラクションを行うにはJavaScriptを使用します</p>
+                        <p>コードの実行はすべてブラウザ内で行います</p>
+                        <p>ブラウザがレスポンスを受信し実行することで</p>
+                        <p>ユーザーはページ上でインタラクションを行うことができます</p>
+                    </div>
+                </div>   
+                <div class="contents-item">
+                    <img class="pdf" src="OutosystemsPDF\2.1-Web Development Overview_page-0008.jpg">
+                    <div class="item-text">
+                        <h3>Summary</h3>
+                        <p>これでWebアプリケーションの概要は終了です</p>
+                        <p>クライアント-サーバーアーキテクチャの概念は</p>
+                        <p>コースを進めていく中で基本的な考え方として役に立つかと思います</p>
+                    </div>
+                </div>   
+                <div class="contents-item">
+                    <img class="pdf" src="OutosystemsPDF\2.1-Web Development Overview_page-0009.jpg">
+                    <div class="item-text">
+                        <h3>last</h3>
+                        <p>以上で「Web開発の概要」セッションを終わります </p>
+                    </div>
+                </div>   
+        </div>
+    </body>
+</html>
