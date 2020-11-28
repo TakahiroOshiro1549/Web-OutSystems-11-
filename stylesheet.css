@@ -1,10 +1,13 @@
-
 body {
     font-family: "Avenir Next";
     margin: 0;
 }
 li {
     list-style: none;
+}
+a {
+    color: white;
+    text-decoration: none;
 }
 .header {
     background-color: #1d1d1d;
@@ -21,6 +24,10 @@ li {
     font-size: 40px;
     padding: 20px 40px;
 }
+.header-logo span {
+    color: red;
+    font-weight: bold;
+}
 .header-list ul {
     display: flex;
     justify-content: space-between;
@@ -30,6 +37,9 @@ li {
     padding: 20px 40px;
     display: flex;
 }
+.header-list li a:hover {
+    color: yellow;
+  }
 .main {
     background-color: rgb(233, 233, 233);
     padding-top: 100px;
